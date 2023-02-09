@@ -1,5 +1,9 @@
 ﻿
 using ConsoleApp1;
 
-EletjatekSzimulator ejsz = new(20, 20);
-ejsz.Mejelenit();
+EletjatekSzimulator ejsz = new(10, 10);
+while (true)
+{ 
+    ejsz.Run();
+}
+
